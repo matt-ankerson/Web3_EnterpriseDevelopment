@@ -1,0 +1,114 @@
+﻿#container 
+{
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6879A0;
+}
+#banner
+{
+    width: 100%;
+    height: 250px;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-size: 35px;
+    text-align: center;
+}
+#logo
+{
+    width: 28%;
+    float: left;
+    height: 100%;
+    margin: 2px;
+    background-color: #FFF6E3;
+}
+#title
+{
+    width: 71%;
+    float: right;
+    height: 100%;
+    background-color: #EFD092;
+    margin: 2px;
+}
+#titleText
+{
+    margin-top: 7%;
+    margin-right: 20%;
+}
+#titleSubText
+{
+    margin-top: 30px;
+    margin-right: 25%;
+}
+#nav
+{
+    margin: 2px;
+    width: 28%;
+    float: left;
+    height: 750px;
+    background-color: #FFF6E3;
+}
+#content
+{
+    margin: 2px;
+    width: 71%;
+    float: right;
+    height: 750px;
+    background-color: #C8CFDE;
+}
+.innerContent
+{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+#footer
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    background-color: #EFD092;
+}
+td
+{
+    border-right: 1px solid black;
+    
+}
+table
+{
+    width: 98%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #DFE9FF;
+}
+th
+{
+    border-bottom: 2px solid black;
+    
+    text-align: left;
+}
+li
+{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+/* links: */
+a
+{
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    
+}
+/* visited, unvisited link */
+a:link, a:visited
+{
+    color: #3267B8;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: darkgray;
+    text-decoration: underline;
+}

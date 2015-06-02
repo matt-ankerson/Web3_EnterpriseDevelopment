@@ -1,0 +1,69 @@
+﻿@model List<ankem1MusicAcademy.Models.Tutor>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Styles/MainStyles.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Tutors</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <div id="logo">
+                <img src="../../Images/music_logo_v1.gif" alt="musical notes" />
+            </div>
+            <div id="title">
+                <h2 id="titleText">Matt's Music Academy</h2>
+                <h3 id="titleSubText">-- Tutors</h3>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="innerContent">
+                <ul>
+                    <li>@Html.ActionLink("Students", "Students", "Student")</li>
+                    <li>@Html.ActionLink("Tutors", "Tutors", "Tutor")</li>
+                    <li>@Html.ActionLink("School Roll", "ShowSchoolRoll", "SchoolRoll")</li>
+                    <li>@Html.ActionLink("Assign Tutors", "ShowAssignTutorsForm", "AssignTutors")</li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="content">
+            <div class="innerContent">
+                <p>@Html.ActionLink("+ Add a Tutor", "ShowNewTutorForm", "AddTutor")</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>First</th>
+                            <th>Last</th>
+                            <th>Phone</th>
+                            <th>See Details</th>
+                            <th>Add Instrument</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var tutor in @Model)
+                    {
+                        <tr>
+                            <td>@tutor.FirstName</td>
+                            <td>@tutor.LastName</td>
+                            <td>@tutor.Phone</td>
+                            <td>@Html.ActionLink("Details", "ShowTutorDetailsForm", "TutorDetails", new { tutorID = tutor.TutorID }, null)</td>
+                            <td>@Html.ActionLink("Add Instrument", "ShowNewTutorInstrumentForm", "AddTutorInstrument", new { tutorID = tutor.TutorID }, null)</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+#month
+{
+	background-color: gray;
+	width: 750px;
+	height: auto;
+	padding-top: 100px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#weeks
+{
+	width: 730px;
+	height: 530px;
+	background-color: black;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.day
+{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: relative;
+	float: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.anotherMonth div
+{
+	background-color: white;
+}
+
+#title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+
+

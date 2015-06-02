@@ -1,0 +1,29 @@
+﻿@model List<ankem1IntroToEF.Models.Dog>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowFarmerDetails</title>
+</head>
+<body>
+    <div>
+        <h3>These are all the dogs owned by your selected farmer.</h3>
+
+        <table>
+            @foreach (var dog in @Model)
+            {
+                <tr>
+                    <td>@dog.Name</td>
+                    <td>@dog.Breed</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

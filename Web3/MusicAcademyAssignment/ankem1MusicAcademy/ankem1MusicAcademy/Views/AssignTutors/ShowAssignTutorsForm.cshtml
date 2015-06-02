@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Styles/MainStyles.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Assign Groups</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <div id="logo">
+                <img src="../../Images/music_logo_v1.gif" alt="musical notes" />
+            </div>
+            <div id="title">
+                <h2 id="titleText">Matt's Music Academy</h2>
+                <h3 id="titleSubText">-- Assign Groups</h3>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="innerContent">
+                <ul>
+                    <li>@Html.ActionLink("Students", "Students", "Student")</li>
+                    <li>@Html.ActionLink("Tutors", "Tutors", "Tutor")</li>
+                    <li>@Html.ActionLink("School Roll", "ShowSchoolRoll", "SchoolRoll")</li>
+                    <li>@Html.ActionLink("Assign Tutors", "ShowAssignTutorsForm", "AssignTutors")</li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="content">
+            <div class="innerContent">
+                <h3>Assign each student to an appropriate tutor.</h3>
+                <p>Click @Html.ActionLink("here", "AssignTutors", "AssignTutors") to assign each student a tutor, based on their instrument choice and tutor availibility.</p>
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+</html>

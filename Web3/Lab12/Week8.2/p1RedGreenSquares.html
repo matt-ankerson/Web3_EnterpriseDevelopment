@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+	<title>New Animation Test for 2014</title>
+	<link rel="stylesheet" href="p1RedGreenSquares.css"/>
+</head>
+<style type="text/css">
+#greenRectangle
+{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	background-color: green;
+	border: 2px solid black;
+	position: absolute;
+}
+#redRectangle
+{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	background-color: red;
+	border: 2px solid black;
+	position: absolute;
+	-webkit-transition: all 4s ease-out 0s;
+}
+#redRectangle:hover
+{
+	-webkit-transform: translate(250px, 25px) rotate(60deg);
+	/* transition: property duration timingFunction delay*/
+	-webkit-transition: all 4s ease-out 0s;
+}
+</style>
+
+
+<body>
+<div id="greenRectangle"></div>
+<div id="redRectangle"></div>
+</body>

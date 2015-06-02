@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>IN712 Session 3.1 Introduction to JavaScript</title>
+	<link rel="stylesheet" href="p2.css">
+	<script>
+
+	function modify_styles()
+	{
+		var ulAnimals = document.getElementById("ulAnimals");
+
+		//ulAnimals.style.border = "2px solid black";
+		//ulAnimals.style.background = "orange";
+		ulAnimals.className = "ulstyle";
+	}
+
+	function init()
+	{
+		// get a reference to the button
+		var btnCSSDemo = document.getElementById("btnCSSDemo");
+		btnCSSDemo.onclick = modify_styles;
+	}
+
+	window.onload = init;
+
+	</script>
+</head>
+
+<body>
+	
+	<ul id="ulAnimals">
+		<li>Antelope</li>
+		<li>Buffalo</li>
+		<li>Crocodile</li>
+	</ul>
+	
+
+	<p>
+	<input type="button" id="btnCSSDemo" value="CSS Demo"/>
+	</p>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

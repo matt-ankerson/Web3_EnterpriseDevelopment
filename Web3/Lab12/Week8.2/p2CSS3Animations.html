@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>IN712 CSS3 Animations</title>
+	<link rel = "stylesheet" type = "text/css" href = "p2CSS3Animations.css"/> 
+</head>
+<style type="text/css">
+
+#wrapper
+{
+	width: 1000px;
+	height: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#transformDemo
+{
+	width: 200px;
+	height: 200px;
+	margin: 200px;
+	line-height: 200px;
+	background-color: green;
+	border: 2px solid black;
+	position: absolute;
+
+	-webkit-transition: all 4s ease-out 0s;
+}
+
+#transformDemo:hover
+{
+	-webkit-transform: skew(20deg, 45deg);
+	-webkit-transition: all 4s ease-out 0s;
+}
+
+#multipleTransition
+{
+	width: 200px;
+	height: 200px;
+	margin: 200px;
+	line-height: 200px;
+	background-color: salmon;
+	border: 2px solid black;
+	position: relative;
+	display: block;
+
+	-webkit-transition: all 4s ease-out 0s;
+}
+
+#multipleTransition:hover
+{
+	/* Grow by 50%*/
+	-webkit-transform: scale(1.5, 1.5);
+	background-color: purple;
+	border-radius: 250px;
+}
+
+#textAnimation
+{
+	font-family: Calibri;
+	margin: 200px;
+	text-align:center;
+
+	-webkit-transition: all 4s ease-out 0s;
+}
+
+#textAnimation:hover
+{
+	font-size: 32pt;
+	color: red;
+
+	-webkit-transform: translate(50px, 50px) rotate(180deg);
+}
+
+/* Transition Delay */
+/* Apply a base style so all circles appear gray.*/
+#delayDemo div
+{
+	position: absolute;
+	top: 500;
+	left: 500;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: #eee;
+
+	-webkit-transition: all 4s ease-out 0s;
+}
+
+/* Styles for each little circle. */
+#delayDemo:hover #delayDemo1
+{
+	-webkit-transform: translate(-100px, -100px);
+	-webkit-transition-delay: 0s;
+	background-color: green;
+}
+#delayDemo:hover #delayDemo2
+{
+	-webkit-transform: translate(100px, -100px);
+	-webkit-transition-delay: 1s;
+	background-color: purple;
+}
+#delayDemo:hover #delayDemo3
+{
+	-webkit-transform: translate(100px, 100px);
+	-webkit-transition-delay: 2s;
+	background-color: red;
+}
+#delayDemo:hover #delayDemo4
+{
+	-webkit-transform: translate(-100px, 100px);
+	-webkit-transition-delay: 3s;
+	background-color: blue;
+}
+
+</style>
+
+<body>
+
+<div id="wrapper">
+
+	<div id="transformDemo"></div>
+	
+	
+	<div id="multipleTransition"></div>
+	
+	<div id="textAnimation">Animate Me!!</div>
+	
+	<div id="delayDemo">
+		<div id="delayDemo1"></div>
+		<div id="delayDemo2"></div>
+		<div id="delayDemo3"></div>
+		<div id="delayDemo4"></div>
+	</div>
+
+
+	<div id="spaceMaker"></div>
+
+
+</div>  <!-- end wrapper -->
+	
+
+
+</body>
+
+</html>

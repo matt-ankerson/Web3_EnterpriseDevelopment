@@ -1,0 +1,18 @@
+e:\users\patricia\documents\visual studio 2013\Projects\TravelQuiz2015\TravelQuiz2015\bin\TravelQuiz2015.dll.config
+e:\users\patricia\documents\visual studio 2013\Projects\TravelQuiz2015\TravelQuiz2015\bin\TravelQuiz2015.dll
+e:\users\patricia\documents\visual studio 2013\Projects\TravelQuiz2015\TravelQuiz2015\bin\TravelQuiz2015.pdb
+e:\users\patricia\documents\visual studio 2013\Projects\TravelQuiz2015\TravelQuiz2015\obj\Debug\TravelQuiz2015.csprojResolveAssemblyReference.cache
+e:\users\patricia\documents\visual studio 2013\Projects\TravelQuiz2015\TravelQuiz2015\obj\Debug\TravelQuiz2015.dll
+e:\users\patricia\documents\visual studio 2013\Projects\TravelQuiz2015\TravelQuiz2015\obj\Debug\TravelQuiz2015.pdb
+E:\Users\Patricia\Desktop\Travel Quiz Skeleton 2015\TravelQuiz2015\bin\TravelQuiz2015.dll.config
+E:\Users\Patricia\Desktop\Travel Quiz Skeleton 2015\TravelQuiz2015\bin\TravelQuiz2015.dll
+E:\Users\Patricia\Desktop\Travel Quiz Skeleton 2015\TravelQuiz2015\bin\TravelQuiz2015.pdb
+E:\Users\Patricia\Desktop\Travel Quiz Skeleton 2015\TravelQuiz2015\obj\Debug\TravelQuiz2015.csprojResolveAssemblyReference.cache
+E:\Users\Patricia\Desktop\Travel Quiz Skeleton 2015\TravelQuiz2015\obj\Debug\TravelQuiz2015.dll
+E:\Users\Patricia\Desktop\Travel Quiz Skeleton 2015\TravelQuiz2015\obj\Debug\TravelQuiz2015.pdb
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab4\ankem1TravelRecommendations\TravelQuiz2015\bin\TravelQuiz2015.dll.config
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab4\ankem1TravelRecommendations\TravelQuiz2015\bin\TravelQuiz2015.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab4\ankem1TravelRecommendations\TravelQuiz2015\bin\TravelQuiz2015.pdb
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab4\ankem1TravelRecommendations\TravelQuiz2015\obj\Debug\TravelQuiz2015.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab4\ankem1TravelRecommendations\TravelQuiz2015\obj\Debug\TravelQuiz2015.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab4\ankem1TravelRecommendations\TravelQuiz2015\obj\Debug\TravelQuiz2015.pdb

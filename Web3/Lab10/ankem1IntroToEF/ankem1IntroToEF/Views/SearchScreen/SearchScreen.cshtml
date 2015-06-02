@@ -1,0 +1,31 @@
+﻿@model List<ankem1IntroToEF.Models.Farmer>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchScreen</title>
+</head>
+<body>
+    <div> 
+        <h3>Click details to view owned dogs.</h3>
+        <table>
+            <!-- Loop over our Farmers -->
+            @foreach (var f in @Model)
+            {
+                <tr>
+                    <td>@f.FirstName</td>
+                    <td>@f.LastName</td>
+                    <td>@f.Phone</td>
+                    <td>@Html.ActionLink("Details", "FarmerDetails", new { farmerID = f.FarmerID })</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

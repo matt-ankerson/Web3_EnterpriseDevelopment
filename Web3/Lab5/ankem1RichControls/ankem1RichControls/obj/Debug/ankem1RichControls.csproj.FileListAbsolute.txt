@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab5\ankem1RichControls\ankem1RichControls\bin\ankem1RichControls.dll.config
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab5\ankem1RichControls\ankem1RichControls\bin\ankem1RichControls.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab5\ankem1RichControls\ankem1RichControls\bin\ankem1RichControls.pdb
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab5\ankem1RichControls\ankem1RichControls\obj\Debug\ankem1RichControls.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab5\ankem1RichControls\ankem1RichControls\obj\Debug\ankem1RichControls.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab5\ankem1RichControls\ankem1RichControls\obj\Debug\ankem1RichControls.pdb

@@ -1,0 +1,33 @@
+﻿@model ankem1MVCExploration.Models.Holiday
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowHolidayConfirm</title>
+</head>
+<body>
+    <div> 
+        <h3>Your shiney new Holiday:</h3>
+        <table>
+            <tr>
+                <td>Holiday Name:</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Holiday Date:</td>
+                <td>@Model.HolidayDate.ToShortDateString()</td>
+            </tr>
+            <tr>
+                <td>Days until:</td>
+                <td>@Model.DaysUntilHoliday</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿@model ankem1DogSelector.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Content/site.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowDogResult</title>
+</head>
+<body>
+    <div id="topSide">
+        <h2>Our Recommendation:</h2>
+        <br />
+        <p>We suggest the @Model.DisplayName </p>
+        <br />
+    </div>
+    <div id="leftSide">
+        <img src="../../Content/Images/@Model.ImageName" alt="Dog Image">
+    </div>
+    <div id="rightSide">
+        <table>
+            <tr>
+                <td>Activity Level:</td>
+                <td>@Model.ActivityLevel</td>
+            </tr>
+            <tr>
+                <td>Shedding Level:</td>
+                <td>@Model.SheddingLevel</td>
+            </tr>
+            <tr>
+                <td>Grooming Level:</td>
+                <td>@Model.GroomingLevel</td>
+            </tr>
+            <tr>
+                <td>Intelligence Level:</td>
+                <td>@Model.IntelligenceLevel</td>
+            </tr>
+            <tr>
+                <td>Good with Children:</td>
+                <td>@Model.GoodWithChildren</td>
+            </tr>
+            <tr>
+                <td>Drools:</td>
+                <td>@Model.Drools</td>
+            </tr>
+            <tr>
+                <td>Coat Length:</td>
+                <td>@Model.Coatlength</td>
+            </tr>
+            <tr>
+                <td>Size:</td>
+                <td>@Model.Size</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

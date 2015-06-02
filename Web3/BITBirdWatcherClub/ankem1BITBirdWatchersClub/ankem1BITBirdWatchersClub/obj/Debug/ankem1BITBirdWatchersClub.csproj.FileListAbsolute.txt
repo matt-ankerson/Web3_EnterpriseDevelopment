@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\BITBirdWatcherClub\ankem1BITBirdWatchersClub\ankem1BITBirdWatchersClub\bin\ankem1BITBirdWatchersClub.dll.config
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\BITBirdWatcherClub\ankem1BITBirdWatchersClub\ankem1BITBirdWatchersClub\bin\ankem1BITBirdWatchersClub.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\BITBirdWatcherClub\ankem1BITBirdWatchersClub\ankem1BITBirdWatchersClub\bin\ankem1BITBirdWatchersClub.pdb
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\BITBirdWatcherClub\ankem1BITBirdWatchersClub\ankem1BITBirdWatchersClub\obj\Debug\ankem1BITBirdWatchersClub.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\BITBirdWatcherClub\ankem1BITBirdWatchersClub\ankem1BITBirdWatchersClub\obj\Debug\ankem1BITBirdWatchersClub.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\BITBirdWatcherClub\ankem1BITBirdWatchersClub\ankem1BITBirdWatchersClub\obj\Debug\ankem1BITBirdWatchersClub.pdb

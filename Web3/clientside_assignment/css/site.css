@@ -1,0 +1,93 @@
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. */
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fh-1 {
+    background: url('../images/img_1.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fh-2 {
+	background: url('../images/img_2.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fh-3 {
+    background: url('../images/img_3.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fh-4 {
+    background: url('../images/img_4.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fh-5 {
+    background: url('../images/img_5.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fh-6 {
+    background: url('../images/img_6.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px #888888;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+#farm-map-canvas
+{
+    height: 500px;
+    width: 1920px;
+    margin: 0px;
+    padding: 0px;
+}
+#txtMessage
+{
+    width: 40%;
+    height: 150px;
+}

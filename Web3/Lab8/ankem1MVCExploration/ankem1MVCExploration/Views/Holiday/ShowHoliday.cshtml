@@ -1,0 +1,25 @@
+﻿@model ankem1MVCExploration.Models.Holiday
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowHoliday</title>
+</head>
+<body>
+    <div> 
+        <form action="ShowHoliday" method="post"> 
+            <p>Holiday Name: <input type="text" name="Name"/></p>
+            <p>Holiday Date: <input type="text" name="HolidayDate" placeholder="dd.mm.yy" /></p>
+            <br />
+            <input type="submit" value="Save the Date."/>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

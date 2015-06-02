@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>IN712 Session 3.1 Introduction to JavaScript</title>
+	<link rel="stylesheet" href="lectureExamples.css">
+	<script>
+
+	// Event handler function
+	function change_div_contents()
+	{
+		var txtInput = document.getElementById("txtInput");
+		var start = txtInput.value;
+
+
+		var divDisplay = document.getElementById("divDisplay");
+		divDisplay.innerHTML += "<h3>";
+
+		for (var i = start; i > 0; i--) 
+		{
+			divDisplay.innerHTML += i;
+		}
+
+		divDisplay.innerHTML += "</h3>";
+	}
+
+	function init()
+	{
+		// Get a reference to the button
+		var btnDemo = document.getElementById("btnDemo");
+		// Bind the handler
+		btnDemo.onclick = change_div_contents;
+	}
+
+	window.onload = init;
+
+	</script>
+</head>
+
+<body>
+	<div id="divDisplay" style="border: solid black 1px">
+		<!--<h3>Content, content, content...</h3>-->
+	</div>
+	
+
+	<p>
+	<input type="text" id="txtInput"/>
+	</p>
+	
+	<p>
+	<input type="button" id="btnDemo" value="Count Down!"/>
+	</p>
+	
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+﻿@model ankem1DogSelector.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Content/site.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowDogSelector</title>
+</head>
+<body>
+    <div> 
+        <h2>Welcome to the IN712 Dog Selector Spectacular</h2>
+        <h3>We'll help you select the perfect pooch.</h3>
+
+        <form action="ShowDogSelector" method="post" title="Preferences">
+            <br />
+            <p>Must be good with children:</p>
+            <input type="radio" name="GoodWithChildren" value="Yes" checked />Yes
+            <br />
+            <input type="radio" name="GoodWithChildren" value="No" />No
+            <br />
+
+            <p>Drooling:</p>
+            <input type="radio" name="Drools" value="Yes" checked />No worries
+            <br />
+            <input type="radio" name="Drools" value="No" />No Slober!
+            <br />
+
+            <p>Coat Length:</p>
+            <input type="radio" name="CoatLength" value="Short" checked />Short
+            <br />
+            <input type="radio" name="CoatLength" value="Medium" />Medium
+            <br />
+            <input type="radio" name="CoatLength" value="Long" checked />Long
+            <br />
+
+            <p>Further Preferences</p>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Low</th>
+                    <th>Medium</th>
+                    <th>High</th>
+                    <th>No Preference</th>
+                </tr>
+                <tr>
+                    <td>Activity Level</td>
+                    <td><input type="radio" name="ActivityLevel" value="Low" />Low</td>
+                    <td><input type="radio" name="ActivityLevel" value="Medium" checked />Medium</td>
+                    <td><input type="radio" name="ActivityLevel" value="High" />High</td>
+                    <td><input type="radio" name="ActivityLevel" value="NoPref" />No Preference</td>
+                </tr>
+                <tr>
+                    <td>Shedding Level</td>
+                    <td><input type="radio" name="SheddingLevel" value="Low" />Low</td>
+                    <td><input type="radio" name="SheddingLevel" value="Medium" checked />Medium</td>
+                    <td><input type="radio" name="SheddingLevel" value="High" />High</td>
+                    <td><input type="radio" name="SheddingLevel" value="NoPref" />No Preference</td>
+                </tr>
+                <tr>
+                    <td>Grooming Level</td>
+                    <td><input type="radio" name="GroomingLevel" value="Low" />Low</td>
+                    <td><input type="radio" name="GroomingLevel" value="Medium" checked />Medium</td>
+                    <td><input type="radio" name="GroomingLevel" value="High" />High</td>
+                    <td><input type="radio" name="GroomingLevel" value="NoPref" />No Preference</td>
+                </tr>
+                <tr>
+                    <td>Intelligence Level</td>
+                    <td><input type="radio" name="IntelligenceLevel" value="Low" />Low</td>
+                    <td><input type="radio" name="IntelligenceLevel" value="Medium" checked />Medium</td>
+                    <td><input type="radio" name="IntelligenceLevel" value="High" />High</td>
+                    <td><input type="radio" name="IntelligenceLevel" value="NoPref" />No Preference</td>
+                </tr>
+            </table>
+            <br />
+
+            <p>Preferred Size:</p>
+            <select name="Size">
+                <option value="Pocket">Small</option>
+                <option value="Tiny">Tiny</option>
+                <option value="Miniature">Miniature</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Giant">Giant</option>
+            </select>
+
+            <br />
+            <br />
+            <input type="submit" name="submit" value="Find my Dog"/>
+
+        </form>
+    </div>
+</body>
+</html>

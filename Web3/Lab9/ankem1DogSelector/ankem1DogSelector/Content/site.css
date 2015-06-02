@@ -1,0 +1,42 @@
+﻿#topSide
+{
+    position: relative;
+    display: inline;
+    width: 100%;
+}
+#leftSide
+{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+#rightSide
+{
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+form
+{
+    width: 50%;
+    float: left;
+    border: outset black;
+}
+
+table
+{
+    border: 1px solid black;
+}
+
+th
+{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+td
+{
+    text-align: right;
+    border: 1px solid black;
+}

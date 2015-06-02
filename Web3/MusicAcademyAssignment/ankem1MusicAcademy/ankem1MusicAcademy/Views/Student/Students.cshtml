@@ -1,0 +1,76 @@
+﻿@model List<ankem1MusicAcademy.Models.Student>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Styles/MainStyles.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Students</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <div id="logo">
+                <img src="../../Images/music_logo_v1.gif" alt="musical notes" />
+            </div>
+            <div id="title">
+                <h2 id="titleText">Matt's Music Academy</h2>
+                <h3 id="titleSubText">-- Students</h3>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="innerContent">
+                <ul>
+                    <li>@Html.ActionLink("Students", "Students", "Student")</li>
+                    <li>@Html.ActionLink("Tutors", "Tutors", "Tutor")</li>
+                    <li>@Html.ActionLink("School Roll", "ShowSchoolRoll", "SchoolRoll")</li>
+                    <li>@Html.ActionLink("Assign Tutors", "ShowAssignTutorsForm", "AssignTutors")</li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="content">
+            <div class="innerContent">
+                <p>@Html.ActionLink("+ Add a Student", "ShowNewStudentForm", "AddStudent")</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>First</th>
+                            <th>Last</th>
+                            <th>Instrument</th>
+                            <th>Tutor</th>
+                            <th>See Details</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var student in @Model)
+                    {
+                        <tr>
+                            <td>@student.FirstName</td>
+                            <td>@student.LastName</td>
+                            <td>@student.Instrument.Name</td>
+                            @if (student.Tutor != null)
+                            {
+                                <td>@student.Tutor.FirstName @student.Tutor.LastName</td>
+                            }
+                            else
+                            {
+                                <td>Unassigned</td>
+                            }
+                            <td>@Html.ActionLink("Details", "ShowStudentDetailsForm", "StudentDetails", new { studentID = student.StudentID }, null)</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+</html>

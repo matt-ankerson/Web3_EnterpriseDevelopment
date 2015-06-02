@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab6\ankem1SheepDogTrials\ankem1SheepDogTrials\bin\ankem1SheepDogTrials.dll.config
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab6\ankem1SheepDogTrials\ankem1SheepDogTrials\bin\ankem1SheepDogTrials.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab6\ankem1SheepDogTrials\ankem1SheepDogTrials\bin\ankem1SheepDogTrials.pdb
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab6\ankem1SheepDogTrials\ankem1SheepDogTrials\obj\Debug\ankem1SheepDogTrials.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab6\ankem1SheepDogTrials\ankem1SheepDogTrials\obj\Debug\ankem1SheepDogTrials.dll
+\\vmware-host\Shared Folders\Documents\Polytechnic\BITY3\repos\git\Web3\Lab6\ankem1SheepDogTrials\ankem1SheepDogTrials\obj\Debug\ankem1SheepDogTrials.pdb

@@ -1,0 +1,82 @@
+﻿@model ankem1MusicAcademy.Models.Tutor
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Styles/MainStyles.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Tutors</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+            <div id="logo">
+                <img src="../../Images/music_logo_v1.gif" alt="musical notes" />
+            </div>
+            <div id="title">
+                <h2 id="titleText">Matt's Music Academy</h2>
+                <h3 id="titleSubText">-- Add a Tutor</h3>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="innerContent">
+                <ul>
+                    <li>@Html.ActionLink("Students", "Students", "Student")</li>
+                    <li>@Html.ActionLink("Tutors", "Tutors", "Tutor")</li>
+                    <li>@Html.ActionLink("School Roll", "ShowSchoolRoll", "SchoolRoll")</li>
+                    <li>@Html.ActionLink("Assign Tutors", "ShowAssignTutorsForm", "AssignTutors")</li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="content">
+            <div class="innerContent">
+                <form action="AddTutor" method="post">
+                    <h3>You can add a tutor here:</h3>
+                    <p>First Name:</p>
+                    <input type="text" name="FirstName" placeholder="Mark" required />
+                    <p>Last Name:</p>
+                    <input type="text" name="LastName" placeholder="Knopfler" required />
+                    <p>Phone Number:</p>
+                    <input type="text" name="Phone" placeholder="00 0000 000" required />
+                    <p>Instrument:</p>
+                    @{
+                        List<ankem1MusicAcademy.Models.Instrument> instruments = (List<ankem1MusicAcademy.Models.Instrument>)ViewBag.Instruments;
+                    }
+                    <select name="InstrumentID" required autofocus>
+
+                        @foreach (var i in instruments)
+                        {
+                            <option value="@i.InstrumentID">@i.Name</option>
+                        }
+                    </select>
+
+                    <p>Skill Level:</p>
+                    @{
+                        List<ankem1MusicAcademy.Models.SkillLevel> skillLevels = (List<ankem1MusicAcademy.Models.SkillLevel>)ViewBag.SkillLevels;
+                    }
+                    <select name="SkillLevelID" required autofocus>
+
+                        @foreach (var i in skillLevels)
+                        {
+                            <option value="@i.SkillLevelID">@i.Skill</option>
+                        }
+                    </select>
+
+                    <br />
+                    <br />
+                    <input type="submit" name="submit" value="Add Tutor" />
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+</html>

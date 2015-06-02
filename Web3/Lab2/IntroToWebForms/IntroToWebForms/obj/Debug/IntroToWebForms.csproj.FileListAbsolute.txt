@@ -1,0 +1,12 @@
+F:\Web3\IntroToWebForms\IntroToWebForms\bin\IntroToWebForms.dll.config
+F:\Web3\IntroToWebForms\IntroToWebForms\bin\IntroToWebForms.dll
+F:\Web3\IntroToWebForms\IntroToWebForms\bin\IntroToWebForms.pdb
+F:\Web3\IntroToWebForms\IntroToWebForms\obj\Debug\IntroToWebForms.csprojResolveAssemblyReference.cache
+F:\Web3\IntroToWebForms\IntroToWebForms\obj\Debug\IntroToWebForms.dll
+F:\Web3\IntroToWebForms\IntroToWebForms\obj\Debug\IntroToWebForms.pdb
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\IntroToWebForms\IntroToWebForms\bin\IntroToWebForms.dll.config
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\IntroToWebForms\IntroToWebForms\bin\IntroToWebForms.dll
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\IntroToWebForms\IntroToWebForms\bin\IntroToWebForms.pdb
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\IntroToWebForms\IntroToWebForms\obj\Debug\IntroToWebForms.csprojResolveAssemblyReference.cache
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\IntroToWebForms\IntroToWebForms\obj\Debug\IntroToWebForms.dll
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\IntroToWebForms\IntroToWebForms\obj\Debug\IntroToWebForms.pdb

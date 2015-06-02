@@ -1,0 +1,25 @@
+﻿body   
+{
+    background: #b6b7bc;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+.page
+{
+    width: 800px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+    padding: 20px 20px 20px 20px;
+}
+
+
+input
+{
+    font-size: 1.15em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+}
+

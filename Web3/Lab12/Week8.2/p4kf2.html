@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+	<title>New Animation Test for 2014</title>
+</head>
+
+<style type="text/css">
+
+@-webkit-keyframes moveAround
+{
+	0%
+	{
+		top: 0px;
+		left: 0px;
+		background-color: green;
+	}
+	25%
+	{
+		top: 0px;
+		left: 200px;
+		background-color: yellow;
+	}
+	50%
+	{
+		top: 200px;
+		left: 200px;
+		background-color: black;
+	}
+	75%
+	{
+		top: 200px;
+		left: 0px;
+		background-color: blue;
+	}
+	100%
+	{
+		top: 0px;
+		left: 0px;
+		background-color: green;
+	}
+}
+	
+#kf2
+{
+	width: 50px;
+	height: 50px;
+	line-height: 200px;
+	background-color: green;
+	border: 2px solid black;
+	position: relative; /* REQUIRED */
+	
+	/* name, duration, timingFunction, delay iteration-count, direction*/
+	-webkit-animation: moveAround 4s ease-out 0s, 5 normal;
+}
+
+</style>
+
+<body>
+<div id="kf2"></div>
+</body>

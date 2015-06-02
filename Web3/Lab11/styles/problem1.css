@@ -1,0 +1,54 @@
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: auto;
+}
+.box
+{
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+
+}
+
+#one
+{
+	background-color: #EBDA1E;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 5;
+}
+#two
+{
+	background-color: #F3D571;
+	top: 30px;
+	left: 30px;
+	z-index: 4;
+}
+#three
+{
+	background-color: #D1C499;
+	top: 50px;
+	left: 50px;
+	z-index: 3;
+}
+#four
+{
+	background-color: #FFFD8C;
+	top: 70px;
+	left: 70px;
+	z-index: 2;
+}
+#five
+{
+	background-color: #A6A44C;	
+	top: 90px;
+	left: 90px;
+	z-index: 1;
+}

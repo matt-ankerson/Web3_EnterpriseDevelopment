@@ -1,0 +1,33 @@
+﻿@model ankem1IntroToEF.Models.Farmer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddFarmer</title>
+</head>
+<body>
+    <div> 
+        <form action="AddFarmer" method="post">
+            <h3>Use this form to add a farmer.</h3>
+            <br />
+            <p>First Name:</p>
+            <input type="text" name="FirstName" />
+            <br />
+            <p>Last Name</p>
+            <input type="text" name="LastName" />
+            <br />
+            <p>Phone Number</p>
+            <input type="text" name="Phone" />
+            <br />
+            <br />
+            <input type="submit" name="submit" value="Add Farmer" />
+        </form>
+    </div>
+</body>
+</html>

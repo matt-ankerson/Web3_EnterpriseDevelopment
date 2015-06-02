@@ -1,0 +1,5 @@
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\MigratingHTML\MigratingHTML\bin\MigratingHTML.dll.config
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\MigratingHTML\MigratingHTML\bin\MigratingHTML.dll
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\MigratingHTML\MigratingHTML\bin\MigratingHTML.pdb
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\MigratingHTML\MigratingHTML\obj\Debug\MigratingHTML.dll
+C:\Users\Matty\Documents\Polytechnic\BITY3\repos\general_repo\Web3\Lab2\MigratingHTML\MigratingHTML\obj\Debug\MigratingHTML.pdb
