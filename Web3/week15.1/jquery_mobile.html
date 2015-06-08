@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" /> 
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> 
+		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script
+		
+	</head>
+	<body>
+		
+		<div data-role="page" id="first_page">
+		
+			<div data-role="header" data-theme="e">
+				<h1>First Page Title</h1>
+			</div>
+		
+			<div data-role="content"
+				<p>Page content goes here</p>
+				<p><a href="#second_page" data-transition="flow">To Second Page</a></p>
+				<a href="#third_page" data-role="button" data-icon="delete" data-inline="true">Link Button</a>
+				<button data-icon="forward" data-iconpos="right" data-inline="true">Button element</button>
+				<input type="button" value="Button" />
+				<label for="slider1">Input slider:</label>
+				<input type="range" id="slider1" value="60" min="0", max="100" />
+			</div>
+		
+			<div data-role="footer">
+				<h4>Page Footer</h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="second_page">
+		
+			<div data-role="header"  data-theme="d">
+				<h1>Second Page Title</h1>
+			</div>
+		
+			<div data-role="content"
+				<p>Page content goes here</p>
+		
+				<p><a href="#first_page" data-transition="turn">To First Page</a></p>
+				<p><a href="#third_page" data-transition="fade">To Third Page</a></p>
+				<div data-role="controlgroup">
+					<a href="#third_page" data-role="button">Yes</a>
+					<a href="index.html" data-role="button">No</a>
+					<a href="index.html" data-role="button">Perhaps</a>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>Page Footer</h4>
+			</div>
+		
+		</div
+		
+	</body>
+</html>
